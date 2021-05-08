@@ -1,0 +1,35 @@
+  
+  <!DOCTYPE html>
+  <html lang="es-MX">
+  <head>
+  <meta charset="URF-8">
+   <title> Ejercicio 14 B</title>
+    <style>
+      .Pintura{margin-rigth:3%;
+               margin-left:3%;
+               width:94%;
+               border: 5px solid black;
+               height:500px;
+               padding:0px;}
+                         
+       .Pintura picture img{margin-rigth:2px;
+                           width:100%;
+                           height:500px;
+                           margin:0px;}         
+         h1 {text-align:center;
+                           }                      
+  </style> 
+  </head>
+  <body>
+     <h1> Diferentes Imagenes</h1>
+     <div class="Pintura">
+   <picture>
+     <source media="(max-width:600px)" srcset="../img/Pintura2.jpg">
+     <source media="(max-width:900px)" srcset="../img/Pintura3.jpg">
+     <img src="../img/Pintura4.jpg" alt="texto">
+     
+  </picture>
+  </div>
+  <p> La imagen cambia dependiendo del tamaño del navegador</p>
+   </body
+   </html>

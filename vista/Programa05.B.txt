@@ -1,0 +1,70 @@
+ Programa05B.c
+ 1  //Estructuras de control Sentencia Switch Case4
+ 2  //Principios de Programacion
+ 3  #include <stdio.>h//se encarga de las entradas ysalidas
+ 4  #include stdio.h> //Comandos del Sistema Operativo
+ 5 
+ 6   void main(){
+ 7
+ 8   char condicion;
+ 9  int resultado;
+ 10
+ 11  printf("Dame un digito\n");
+ 12   scanf("%",&condicion);
+ 13
+ 14   printf("\n");
+ 15  
+ 16   switch(condicion){
+ 17   case 48:
+ 18        resultado=0;
+ 19        printf("tu numero es: %d\n",resultado);
+ 20        break;
+ 21   case 49:
+ 22        resultado=1;
+ 23        printf("tu numero es: %d\n,resultado);
+ 24        break;
+ 25   case 50:
+ 26        resultado =2;
+ 27        printf("tu numero es: %d\n",resultado);
+ 28        break;
+ 29   case  51:
+ 30        resultado =3;
+ 31        printf("tu numero es: %d\n",resultado);
+ 32        break;
+ 33   case 52:
+ 34        resultado=4;
+ 35        printf("tu numero es: %d\n",resultado);
+ 36        break;
+ 37    case 53:
+ 38        resultado=5;
+ 39        printf("tu numero es: %d\n",resultad);
+ 40        break;
+ 41   case 54:
+ 42        resultado=6;
+ 43        printf("tu numero es: %d\n",resultado);
+ 44        break;
+ 45   case 55:
+ 46         resultado=7;
+ 47         printf("tu numero es. %dn");
+ 48         break;
+ 49   case 56:
+ 50         resultado=8;
+ 51         printf("tu numero es: %d\n,resultado);
+ 52         break;
+ 53   case 57:
+ 54          resultado=9:
+ 55          printf("tu numero es: %d\n,resultado);
+ 56          break;
+ 57   default:
+ 58          printf("el valor %c no es un digito\n",condicion);
+ 59          break;
+ 60   }
+ 61
+ 62   sistem("pause");
+ 63  //return 0;
+ 64  }
+ 45       
+
+
+ 
+ 

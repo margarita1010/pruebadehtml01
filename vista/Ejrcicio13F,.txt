@@ -1,0 +1,193 @@
+ 
+  <!DOCTYPE html>
+  <htn lang"es-MX">
+  <head>
+   <meta charset="UTF-8">
+   <title< Ejercicio 13F </titlea>
+    <style>
+    table,th,td{border:5px solid #5534ff;}
+     div.principal{
+           margin-left:15%;
+           margin-right:15%
+           width:70%
+           }
+     table{
+           background-color:#FAFF55;
+           width:100%
+           }
+     thead{
+           background-color:#23AF56;
+           font-size:35px;
+           color:#0B9ffA;
+           }
+      tfoot{
+           background-color:#245fff;
+           font-size:35px;
+           text-align:center
+           }  
+     tbody{
+          background-color:#111111;
+          color:fff;
+          font-size:25px;
+          text-align:center;
+         }
+       h1{text-align:center;}
+ .producto{
+      border-radius:10px;
+      border-color:darkorange;
+      border-width:10px;
+      border-style:inset;
+      backgrund-color;#111199;
+      text-align:left;
+      }
+ColCantidad
+      border-radius:10px
+      border-color:cyan;
+      border-width:outset;
+      background-color:#115511;
+      }
+ csption{font-size:30px;
+        color:#9f9fff;
+      }  
+ th.CabHead{
+     border-color:#ff34bb;
+     border-style:ridge;
+     border-width:8px;
+     border-radius:40px;
+     width:33.33%;
+     height:60px;
+     }
+th.CabExterno{
+     border-12px groove #77ff0f;
+     border-radius:50px
+     height:50px;
+     }
+th.CabInterno
+     border:12px double #ffof77;
+     border-radius:10px;
+     heigth;50px; 
+     }
+td.Total{
+     border: 7px dashed #00ffff
+     background-color:#f69889;
+     height.50px;
+     text-align:right;
+     } 
+
+
+               
+
+
+
+      td{text-align
+     </style>
+     </head>
+     <body>
+
+     <div class="principal">  
+     <h1> Tabla con Etiquetas de Agrupacion´</h1>
+     <table>
+         <caption><b>Lista de Compras</b</caption>
+     <thead>
+      <tr>
+         <th class="CabHead"><div>Producto</div></th>
+         <td class="CabHead><div>Cantidad</div></td>
+         <<td Class="CabHead><div>Precio</div></td>
+       </tr>
+       </thead>
+       <tfoot>
+       <tr>
+             <td colspan="2">Total </td>
+             <td>$13,100</td>
+       </tr>
+     </tfoot>
+     </tbody>
+         <tr>
+            <th colspan="3"class>="CabExterno">Componentes Externos</th>
+            
+     <tr>
+     <tr>
+            <td class="Producto">Monitor</td>
+            <td class="ColCantidad"> 1 </td>
+            <td>$2000</td>
+      </tr>
+      <tr>
+             <td class="Producto">Mouse</td>
+             <td class="ColCantidad"> 1 </td>
+             <td> $250</td>
+       </tr>
+       <tr>
+              <td class="Producto">Teclado</td>
+              <td class="> 1 </td>
+              <td> $350</td>
+       </tr>
+       <tr>
+               <td class="Producto">Bocinas</td>
+               <td class=">2</td>
+               <td>$250</td>
+       </tr>
+       <tr>
+               <td class="Producto"Microfonos</td>
+               <td class="ColCantidad"> 1 </td>
+               <td>$350</td>
+       </tr>
+       <tr>
+               <td class="Producto">Camara</td>
+               <td class="ColCantidad"> 1 </td>
+               <td> $400 </td>
+       </tr>
+       <tr>
+               <td class "Producto">Gabinete</td>
+               <td class="ColCantidad"> 1 </td>
+               <td> $700 </td>
+        </tr>
+        <tr>
+               <td class="Producto>Impresora </td>
+               <td class"ColCantidad"> 1 </td>
+               <td> $900 </td>
+        </tr>
+        <tr>
+               <td class="Producto"Escanner</tr>
+               <td class="ColCantidad"> 1 </td>
+               <td> $800 </td>
+        </tr>
+        <tr>
+           <th class"3">Componentes Internos</th>
+        </tr>
+        tr>
+               <td class="Producto"Procesador 1.19 Ghz Core i3</td>
+               <td> 1 </td>
+               <td> $2000 </td>
+         </td>
+         <tr>
+           <th colspan="3" class="CabInterno">Componentes Internos</th>          
+             
+        </td>
+        <tr>   
+               <tdclass="producto" Memoria RAM 8GB DORA</td> 
+        </tr>  <td class="ColCantidad"> 1 <td>
+        <tr>   <td> 800 </td>
+                
+               <td class="Producto"Disco Duro HOO</td>
+               <td class="ColCantidad"> 1 </td>
+               <td> $800 </td>
+        </tr>
+        <tr>
+               <td class="Producto"<Tarjeta Madre </td>
+               <td class="ColCantidad> 1 </td>
+               <td> $1500 </td>
+        </tr>
+        <tr>
+               <td class="Producto"Fuentes de Poder </td>
+               <td class="ColCantidad"> 1 </td>
+               <td> $900 </td>
+         </tr>
+         <tr>
+               <td> class="Producto"Tarjeta de video 2G</td>
+               <td> 1 </td>
+               <td> $1200 </td> 
+         </tbody>
+         </table>
+         </div>   
+        
+         

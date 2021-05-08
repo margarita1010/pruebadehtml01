@@ -1,0 +1,15 @@
+    body{background-color:azure;}
+    h1{text-align:center;color:blue;border:6px solid red;}
+    h2{text-align:right;color:coral;border: 5px solid crimson;}
+    h3{text-align:center;color: navy;border:4px solid green;}
+    h4{text-align:center;color:steelblue;border:3px solid violet;}
+    h5{text-align:right;color:chocolate;border:2px solid tomato;}
+    h6{text-align:left;color:pink;border:1px solid gold;}
+    .p1{border:6px solid red;color:white;background-color:blue;}
+    .p2{border:5px solid pink;color:blueviolet;background-color:indigo;}
+     .p3{border:4px solid deepskyblue;color:dodgerblue;background-color:greenyellow;}
+     .p4{border:3px solid olivedrab;color:palegreen;background-color:tomato;}
+     .p5{border:2px solid blue;color:aqua;background-color:firebrick;}
+     .p6{border:1px solid fuchsia;color:brown;background-color:coral;}
+           
+  
